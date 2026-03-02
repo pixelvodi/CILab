@@ -14,11 +14,11 @@ namespace Tests
         }
 
         [Fact]
-        public void Add_ShouldReturnSum()
+        public void Add_ShouldReturnSum1()
         {
             var calc = new Calculator();
-            var result = calc.Add(2, 3);
-            Assert.Equal(5, result); // Неправильно, 2+3=5
+            var result = calc.Add(3, 3);
+            Assert.Equal(6, result); // Неправильно, 2+3=5
         }
 
     }
